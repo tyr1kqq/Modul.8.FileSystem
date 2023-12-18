@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul.8.FileSystem", "Modul.8.FileSystem\Modul.8.FileSystem.csproj", "{250E657D-D691-491A-BDBC-FDBCC1C67EDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscInfoInMyCopm", "DiscInfoInMyCopm\DiscInfoInMyCopm.csproj", "{8921E544-E639-4CDA-A83B-B8FCFEA249FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{250E657D-D691-491A-BDBC-FDBCC1C67EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{250E657D-D691-491A-BDBC-FDBCC1C67EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{250E657D-D691-491A-BDBC-FDBCC1C67EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8921E544-E639-4CDA-A83B-B8FCFEA249FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8921E544-E639-4CDA-A83B-B8FCFEA249FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8921E544-E639-4CDA-A83B-B8FCFEA249FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8921E544-E639-4CDA-A83B-B8FCFEA249FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
