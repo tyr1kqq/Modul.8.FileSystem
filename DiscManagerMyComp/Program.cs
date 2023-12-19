@@ -11,7 +11,10 @@ namespace DiscManagerMyComp
             GetCatalog();
             
             GetNumber();
+
+           
         }
+ 
         static void GetCatalog()
         {
             
@@ -58,7 +61,7 @@ namespace DiscManagerMyComp
 
                     try
                     {
-                        DirectoryInfo dirInfo = new DirectoryInfo(@"/tyr!k_qq");
+                        DirectoryInfo dirInfo = new DirectoryInfo(@"users/tyr!k_qq");
                         dirInfo.Delete(true);
                         Console.WriteLine("Catalog delete");
 
@@ -72,6 +75,18 @@ namespace DiscManagerMyComp
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
+            }
+            try
+            {
+                DirectoryInfo desk = new DirectoryInfo(@"C:/Users/tyr1k_qq/Desktop/testFolder");
+                string DirTrash = "/Users/tyr1k_qq/.Trash/testFolder";
+
+                desk.MoveTo(DirTrash);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine("exexexexed");
             }
         }
 
