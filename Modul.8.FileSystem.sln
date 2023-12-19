@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscManagerMyComp", "DiscMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWriter", "FileWriter\FileWriter.csproj", "{7B50755A-C901-43C0-A3FC-24A007744CE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextMove", "NextMove\NextMove.csproj", "{1E4EF48A-37AD-4420-9162-FAC7B98F9338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7B50755A-C901-43C0-A3FC-24A007744CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B50755A-C901-43C0-A3FC-24A007744CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B50755A-C901-43C0-A3FC-24A007744CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4EF48A-37AD-4420-9162-FAC7B98F9338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4EF48A-37AD-4420-9162-FAC7B98F9338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4EF48A-37AD-4420-9162-FAC7B98F9338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4EF48A-37AD-4420-9162-FAC7B98F9338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
