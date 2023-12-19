@@ -9,6 +9,7 @@ namespace FileWriter
         static void Main(string[] args)
         {
             string FilePath = @"/Users/tyr1k_qq/Students.txt";
+            
             if (!File.Exists(FilePath))
             {
                 using (StreamWriter sw = File.CreateText(FilePath))
@@ -36,6 +37,19 @@ namespace FileWriter
                     Console.WriteLine(str);
                 }
 
+            }
+            FileInfo Time = new FileInfo(FilePath);
+            using (StreamWriter sw = Time.AppendText())
+            {
+                Console.WriteLine($"Last on file: {DateTime.Now}");
+            }
+            using (StreamReader sr = Time.OpenText())
+            {
+                string str = " ";
+                while ((str = sr.ReadLine()) != null)
+                {
+                    Console.WriteLine(str);
+                }
             }
            
         }
