@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWriter", "FileWriter\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextMove", "NextMove\NextMove.csproj", "{1E4EF48A-37AD-4420-9162-FAC7B98F9338}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary", "Binary\Binary.csproj", "{F748BC45-6C42-429C-83FF-5CF6F6788686}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1E4EF48A-37AD-4420-9162-FAC7B98F9338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E4EF48A-37AD-4420-9162-FAC7B98F9338}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E4EF48A-37AD-4420-9162-FAC7B98F9338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F748BC45-6C42-429C-83FF-5CF6F6788686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F748BC45-6C42-429C-83FF-5CF6F6788686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F748BC45-6C42-429C-83FF-5CF6F6788686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F748BC45-6C42-429C-83FF-5CF6F6788686}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
